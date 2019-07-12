@@ -17,14 +17,14 @@
 					
 				//En caso de que la evaluación indique que el multiplo de 3 y 5 muestra "Linianos".
 						switch ($eva1) {
-							case '0': echo  "Linianos (".$n.")"."<br>";
+							case '0': echo  "Linianos <br>";
 								break;
 
 						}
 
 				//En caso de que la evaluación indique que el multiplo de 5 muestra "IT".
 						switch ($eva2+(flag($eva1))) {
-							case '0': echo  "IT (".$n.")"."<br>";							
+							case '0': echo  "IT <br>";							
 								break;
 							default:
 								break;
@@ -32,7 +32,7 @@
 
 				//En caso de que la evaluación indique que el multiplo de 3 muestra "Linio".
 						switch ($eva3+(flag($eva1))) {
-							case '0': echo  "Linio (".$n.")"."<br>";
+							case '0': echo  "Linio <br>";
 								break;
 						}
 
