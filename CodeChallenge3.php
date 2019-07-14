@@ -40,7 +40,7 @@
 
 				/*En caso de que la evaluación indique que nos es multiplo de ninguno solo se muestra el número.*/
 
-						$eva4 = flag($eva1)+flag_2($eva2)+flag_3($eva3);
+						$eva4 = flag($eva1)+flag($eva2)+flag($eva3);
 
 						switch ($eva4/3) {
 							case '0':
@@ -69,7 +69,7 @@
 
 					}
 
-					function flag_2($eva2){
+					/*function flag_2($eva2){
 
 
 						switch ($eva2) {
@@ -96,7 +96,7 @@
 								break;
 						}
 
-					}
+					} */
 
 ?>
 			
